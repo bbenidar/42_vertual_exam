@@ -33,32 +33,6 @@
 <img width="711" alt="Screenshot 2022-09-06 at 17 01 15" src="https://user-images.githubusercontent.com/55356071/188669418-04f8bb1b-9cc2-4c07-9d07-5e9c570283b4.png">
 
 
-
-
- # 👓 CHEAT code :
- (sorry don't work in exam at 42)
-   
-   **remove_grade_time** : remove grade time between two push
-   
-      > The maximum time to complete the exam is only information. 
-      Here, the exercise can always be corrected even after the time limit.
-      
-   **force_success** : force an exercice to success
-   
-   **new_ex** : generate a new exercice on the same level
-  
-
-
- You can contribute by adding new exercises or improving the program 
- 
-   **gradenow** : Get an instant correction (no grademe cooldown)
-   
-  > Being a sponsor brings VIP on GradeMe and 42_EXAM.
-  
-  > VIPs also have exactly the same display as the 42 examshell.
-  
-  > More features coming
-
  # Launch 42_EXAM in ONE COMMAND : 
 
  
