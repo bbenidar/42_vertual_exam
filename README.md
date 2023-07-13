@@ -1,7 +1,8 @@
-# 42_EXAM v2 🎓
+
+## the original repo & creator : grademe.fr 🥳
+
  ## All 42 exams auto-correct, to practice.
  ## ExamRank02, 03, 04, 05, 06 & PiscineExam
-  ##   👉  42_EXAM is now part of **[GRADEME.FR](https://grademe.fr)** 😎
  #### Disclaimer: This project is not made by 42School, it's not identical to the proposed exams and does not reflect your exams at 42
  ### NEW ExamRank02 available 🥳
  
@@ -45,12 +46,9 @@
    **force_success** : force an exercice to success
    
    **new_ex** : generate a new exercice on the same level
-   
- # 🕶 VIP CHEAT code :
- [Sponsor to become VIP](https://github.com/sponsors/JCluzet)
- OR
- [Contribute to become VIP](CONTRIBUTING.md)
- 
+  
+
+
  You can contribute by adding new exercises or improving the program 
  
    **gradenow** : Get an instant correction (no grademe cooldown)
@@ -63,7 +61,6 @@
 
  # Launch 42_EXAM in ONE COMMAND : 
 
- ```bash -c "$(curl https://grademe.fr)"```    --> Visit [Grademe.fr](https://grademe.fr)
  
 # 👮‍♀️ RGPD Information :
  Some data may be collected for the sole purpose of improving the service, for example to check if an error is coming from the student and not from the program. 
@@ -72,30 +69,33 @@ The data that can be collected are :
 - The exam number you choose.
 - Name of exercise, fail or success, current assignement and level.
 
-# Contribution by adding more exercises :
 
-You can contribute by adding new exercises very easily with 42_EXAM. 
-
-📄 Read this documentation: [Contribution DOC](CONTRIBUTING.md)
-
-🥳 If your contribution is accepted, your name will be listed in the ReadMe as a contributor, thanks!
-
-Contributor : pandaero
-              Kuninoto
-              ComlanGiovanni
-
-# Disclaimer for 42 staff :
+# Disclaimer for 1337 staff :
 
 This project is not identical to the proposed exams and does not reflect 42 official exam. 
 It is only meant to help 42 students to train on some exercises found on Github. 
 It works simply by doing a DIFF on both versions. 
 All the subjects have been found on Github. During my schooling at 42, this project helped me to understand a lot of notions like how to host a website, working with javascript, php and others.
 This project has been created with the sole purpose of helping students to understand their mistakes and improve themselves. 
-If It’s not the case, I am ready to make changes and corrections on it, 42_EXAM/GradeMe has only a non-lucrative and educational purpose. It is completely free and open-source. 
+If It’s not the case, I am ready to make changes and corrections on it, 42_EXAM/GradeMe has only a non-lucrative and educational purpose. It is completely free and open-source.
+if you find this project is a cheating just contact me i will remove it froma here
 
 
-# Your help is welcome
+# USAGE
+clone his rep
+```
+gcl https://github.com/bbenidar/42_vertual_exam.git
 
-👋 If you have any problem with any test, please create an "Issue" here on Github, it will only take 3 minutes of your time and it will help me to make the test more accurate.
+```
 
-📌 Remember that if you encounter an error, you're probably not the only one and your "Issue" will surely help other people.
+```
+cd 42_vertual_exam
+```
+make files!!
+```
+make re
+```
+
+it will run automaticly
+with all love from ur peer ``` me ❤️```
+
