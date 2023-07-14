@@ -1,12 +1,10 @@
-Assignment name  : ft_countdown
-Expected files   : ft_countdown.c
+Assignment name  : ft_print_numbers
+Expected files   : ft_print_numbers.c
 Allowed functions: write
 --------------------------------------------------------------------------------
 
-Write a program that displays all digits in descending order, followed by a
-newline.
+Write a function that displays all digits in ascending order.
 
-Example:
-$> ./ft_countdown | cat -e
-9876543210$
-$>
+Your function must be declared as follows:
+
+void	ft_print_numbers(void);

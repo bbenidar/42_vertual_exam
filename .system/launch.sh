@@ -1,4 +1,4 @@
-version="2.1"
+version="0.1"
 
 # if there is a a.out file in the current directory, delete it
 if [ -f .system/a.out ]; then
@@ -190,7 +190,7 @@ while [ ! -f .system/a.out ]; do
                 cat .system/.devmake.err
                 printf "$WHITE$BOLD"
                 echo ""
-                echo "Thanks for your contribution !"
+                echo "Thanks for your contribution ! (ur peer bbenidar ;)"
                 exit 0
             fi
         fi

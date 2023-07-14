@@ -82,9 +82,9 @@ void exam::exam_prompt(void)
             system(tmp.c_str());
             std::cout << "Opening git repo..." << std::endl;
             if (is_linux)
-                std::system("xdg-open http://git.grademe.fr");
+                std::system("xdg-open https://github.com/bbenidar/42_vertual_exam.git");
             else
-                std::system("open http://git.grademe.fr");
+                std::system("open https://github.com/bbenidar/42_vertual_exam.git");
         }
         else if (input == "remove_grade_time")
         {

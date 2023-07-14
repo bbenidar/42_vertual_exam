@@ -211,33 +211,37 @@ int exam::stud_or_swim(void)
     while (choice != "1" && choice != "2")
     {
         system("clear");
-        std::cout << WHITE << BOLD << "         42EXAM " << std::endl;
+        std::cout << WHITE << BOLD << "\033[1;95m██████████████████████████████████\033[m" << std::endl 
+        << "\033[1;95m█                                █"<< std::endl;
+        std::cout << WHITE << BOLD << "\033[1;95m█ \033[m        1337EXAM            \033[1;95m   █" << std::endl;
         if(vip)
             std::cout << "    You are a " << LIME << "VIP" << WHITE << BOLD << " user" << RESET << std::endl << std::endl;
         else
-            std::cout << "     Made by " << LIME << "jcluzet" << RESET << std::endl
-                  << std::endl
-                  << std::endl;
-        std::cout << LIME << BOLD << "            1" << RESET << std::endl;
-        std::cout << WHITE << BOLD << "    |  Piscine PART  |" << RESET << BOLD << std::endl
-                  << "     \\ ------------ /" << std::endl
-                  << std::endl;
-        std::cout << LIME << BOLD << "            2" << RESET << std::endl;
-        std::cout << WHITE << BOLD << "    |  Student PART  |" << RESET << BOLD << std::endl
-                  << "     \\ ------------ /" << std::endl
-                  << std::endl << std::endl;
+            std::cout << "\033[1;95m█\033[m       Made by " << LIME << "bbenidar         \033[1;95m█" << RESET << std::endl
+                  << "\033[1;95m█                                █"<< std::endl
+                  << "█                                █"<< std::endl;
+        std::cout << LIME << BOLD << "\033[1;95m█      ████████\033[1;92m 1 \033[1;95m███████        █" << RESET << std::endl;
+        std::cout << WHITE << BOLD << "\033[1;95m█      █ \033[m Piscine EXAMS \033[1;95m█        █\033[m " << RESET << BOLD << std::endl
+                  << "\033[1;95m█      ██████████████████        █" << std::endl
+                 << "█                                █"  << std::endl;
+        std::cout << LIME << BOLD << "\033[1;95m█      ████████\033[1;92m 2 \033[1;95m███████        █" << RESET << std::endl;
+        std::cout << WHITE << BOLD << "\033[1;95m█      █ \033[m Student EXAMS \033[1;95m█        █ " << RESET << BOLD << std::endl
+                  << "\033[1;95m█      ██████████████████        █" << std::endl
+                  << "█                                █"<< std::endl
+                  << "█                                █" << std::endl;
 
-        std::cout << LIME << BOLD << "            3" << RESET << std::endl;
-        std::cout << WHITE << BOLD << "    |" << RESET << BOLD << "  SETTINGS PART " << WHITE << BOLD << "|" << RESET << BOLD << std::endl
-                  << "     \\ ------------ /" << std::endl
-                  << std::endl
-                  << std::endl;
+        std::cout << LIME << BOLD << "\033[1;95m█      ████████\033[1;92m 3 \033[1;95m███████        █" << RESET << std::endl;
+        std::cout << WHITE << BOLD  << RESET << BOLD << "\033[1;95m█      █ \033[m SETTING EXAMS \033[1;95m█        █ " << WHITE << BOLD << RESET << BOLD << std::endl
+                  << "\033[1;95m█      ██████████████████        █" << std::endl
+                  << "█                                █"<< std::endl
+                  << "█                                █"<< std::endl
+                  << "\033[1;95m██████████████████████████████████\033[m"<< std::endl;
         
         if (choice == "-1")
             std::cout << BOLD << RED;
         else 
             std::cout << WHITE << BOLD;
-        std::cout << "    Enter your choice:" << RESET << std::endl
+        std::cout <<  std::endl << "      Enter your choice:" << RESET << std::endl << std::endl
                   << "            ";
         // std::cin >> choice;
         if (!std::getline(std::cin, choice))
